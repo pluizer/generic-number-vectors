@@ -1,0 +1,7 @@
+(compile -s generic-number-vectors.scm -J)
+(compile -s generic-number-vectors.import.scm)
+(install-extension 'generic-number-vectors '(
+					     "generic-number-vectors.so"
+					     "generic-number-vectors.import.so"
+					     )
+		   '((version "v0.1")))

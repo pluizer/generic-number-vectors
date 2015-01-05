@@ -1,0 +1,9 @@
+(
+(author "Richard van Roy")
+(synopsis "Generic functions for srfi-4 vectors.")
+(license "BSD")
+(repository "https://github.com/pluizer/generic-number-vectors")
+(category data)
+(files "generic-number-vectors.setup"
+       "generic-number-vectors.scm")
+)
